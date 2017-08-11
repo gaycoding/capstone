@@ -35,28 +35,70 @@ nav li {
 
 /* Container */
 .container {
-  display:block;
   margin: 64px 24px 100px 24px;
+}
+
+.learn {
+  display: flex;
 }
 
 .banner {
   margin: 32px 24px 32px 0px;
   width: 60%;
+  height: 60%;
+  display: flex;
+}
+
+.learn.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;: center;
+  margin-left: 24px;
+}
+
+.start-here {
+  display: flex;
+}
+
+.practicing {
+  display: flex;
+}
+
+.practicing.main {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .information-main {
   margin: 32px 24px 32px 0px;
   width: 60%;
+  display: flex;
+}
+
+.side-buttons {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .side-button {
-  width: 40%;
+flex-direction: row;
+  display: flex;
+
 }
 
 .side-button img {
   height: auto;
   width: 35%;
   margin: 16px;
+}
+
+.side-button.text {
+  flex-direction: column;
+    display: flex;
+    width: 65%;
 }
 
 .source {
