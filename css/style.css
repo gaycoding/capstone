@@ -35,7 +35,7 @@ nav li {
 
 /* Container */
 .container {
-  margin: 64px 24px 100px 24px;
+  margin: 4rem 1.5rem 6.25rem 1.5rem;
 }
 
 .learn {
@@ -97,32 +97,58 @@ flex-direction: row;
 
 .side-button.text {
   flex-direction: column;
-    display: flex;
-    width: 65%;
+  display: flex;
+  width: 65%;
 }
 
 .source {
   margin-bottom: 32px;
 }
 
+.start {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .start h2{
   margin-top: 32px;
+  text-align: center;
+  width: 100%;
 }
 
 .course {
-  margin: 32px 72px 32px 72px;
+  padding: 2rem 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .courses {
-
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem 1.5rem 1rem;
 }
 
 .courses img {
   height: auto;
+  max-width: 100%;
+  display: block;
 }
 
 .courses.text {
-  margin: 16px 0px 24px 16px;
+  padding: 1rem 1rem;
+  display: flex;
+    flex-direction: column;
+}
+
+.courses span {
+
+  margin-top: 0.5rem;
+  line-height: 1.5;
 }
 
 .thesis {
