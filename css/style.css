@@ -69,13 +69,18 @@ nav li {
   width: 60%;
   display: flex;
   flex-direction: column;
+  background-image: url(./../capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 26rem;
+  margin: 2rem 1.5rem 0 0;
 }
 
-.practicing.main .information-main {
-  background-image: url(capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg);
-  margin: 32px 24px 32px 0px;
-  width: 60%;
+.practicing.text {
+  padding-top: 60%;
   display: flex;
+  flex-direction: column;
+  width: 90%;
 }
 
 .side-buttons {
@@ -83,28 +88,36 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-left: 1px solid black;
 }
 
 .side-button {
 flex-direction: row;
   display: flex;
-
+  height: auto;
+padding: 1rem 1rem;
 }
 
-.side-button img {
-  height: auto;
+.side-button-img {
   width: 35%;
-  margin: 16px;
+}
+
+#side-button-img-1, #side-button-img-2, #side-button-img-3, #side-button-img-4, #side-button-img-5 {
+  height: auto;
+  width: 100%;
 }
 
 .side-button.text {
-  flex-direction: column;
-  display: flex;
   width: 65%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .source {
-  margin-bottom: 32px;
+  margin-top: 2rem;
 }
 
 .start {
@@ -148,19 +161,31 @@ flex-direction: row;
 }
 
 .courses span {
-
   margin-top: 0.5rem;
   line-height: 1.5;
 }
 
 .thesis {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+}
+
+.thesis.title {
+  width: 100%;
+  justify-content: center;
+}
+
+.thesis.main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .thesis video {
-  width: 60%;
-  margin: 32px 24px 24px 0px;
+  width: 95%;
+  margin: 2rem 1.5rem 1.5rem 0;
 }
 
 footer {
