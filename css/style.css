@@ -1,5 +1,6 @@
 
 /* Header */
+
 header {
   top: 0;
   left: 0;
@@ -11,6 +12,10 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 1.5rem;
+}
+
+.header-mobile {
+  display: none;
 }
 
 .logo {
@@ -57,7 +62,10 @@ nav li {
 }
 
 .start-here {
-  display: flex;
+  background-color: black;
+    padding: 0.5rem 0;
+    text-align: center;
+    max-width: 100%;
 }
 
 .practicing {
@@ -88,14 +96,13 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-left: 1px solid black;
 }
 
 .side-button {
-flex-direction: row;
+  flex-direction: row;
   display: flex;
   height: auto;
-padding: 1rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .side-button-img {
@@ -181,20 +188,49 @@ padding: 1rem 1rem;
   width: 60%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .thesis video {
   width: 95%;
-  margin: 2rem 1.5rem 1.5rem 0;
+  margin: 0 1.5rem 1.5rem 0;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.thesis .side-buttons {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem 3rem 1.5rem;
+  border-top: 1px solid black;
 }
 
  footer .bottom-nav li {
    padding-right: 0.5rem;
    display: inline-block;
  }
+
+/* Responsive Design */
+
+@media only screen and (max-width: 620px) {
+
+/* Header */
+
+.head, nav {
+  display: none;
+}
+
+.header-mobile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1.5rem;
+  align-items: center;
+}
