@@ -234,3 +234,30 @@ footer {
   padding: 0 1.5rem;
   align-items: center;
 }
+
+.learn, .banner, .learn.text {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+
+.learn.text.container {
+  width: 90%;
+  margin: 0 1.5rem;
+}
+
+.learn.text {
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  background-size: cover;
+  height: 21rem;
+  margin: 0;
+  margin-top: 4rem;
+}
+
+}
