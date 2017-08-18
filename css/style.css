@@ -109,6 +109,10 @@ nav li {
   width: 35%;
 }
 
+.mobile-side-button-img {
+  display: none;
+}
+
 #side-button-img-1, #side-button-img-2, #side-button-img-3, #side-button-img-4, #side-button-img-5 {
   height: auto;
   width: 100%;
@@ -219,7 +223,7 @@ footer {
 
 /* Responsive Design */
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 770px) {
 
 /* Header */
 
@@ -259,12 +263,59 @@ footer {
   margin-top: 4rem;
 }
 
-.practice.main {
+.practicing {
+  margin-bottom: 1.5rem;
+}
+
+.practicing-main {
   display: none;
 }
 
 .side-buttons {
   width: 100%;
+
+}
+
+.side-button {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mobile-side-button-img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+#side-button-img-1, #side-button-img-2, #side-button-img-3 {
+  display: none;
+}
+
+.side-button.text {
+  margin-top: 1rem;
+}
+
+.start h2 {
+  margin: 2rem 0;
+}
+
+.courses img, .courses.text span {
+  display: none;
+}
+
+.courses.text {
+  padding: 1rem 0 1.5rem 1rem;
+}
+
+.courses {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.course {
+  padding: 0 0.5rem 1rem 0.5rem;
 }
 
 }
