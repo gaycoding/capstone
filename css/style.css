@@ -255,9 +255,16 @@ footer {
 .banner {
   width: 100%;
   background-size: cover;
-  height: 21rem;
   margin: 0;
   margin-top: 4rem;
+}
+
+.practice.main {
+  display: none;
+}
+
+.side-buttons {
+  width: 100%;
 }
 
 }
