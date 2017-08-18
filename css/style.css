@@ -188,7 +188,7 @@ nav li {
   justify-content: center;
 }
 
-.thesis.main {
+.thesis-main {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -316,6 +316,30 @@ footer {
 
 .course {
   padding: 0 0.5rem 1rem 0.5rem;
+}
+
+/* Thesis */
+
+.thesis .side-buttons {
+  display: none;
+}
+
+.thesis video {
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+}
+
+.thesis-main h3, .thesis-main p {
+  display: none;
+}
+
+footer {
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.bottom-nav {
+  display: none;
 }
 
 }
